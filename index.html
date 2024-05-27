@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Web Components</title>
+    <script src="tooltip.js"></script>
+    <script src="confirm-link.js"></script>
+  </head>
+  <body>
+    <p>
+      <katrin-tooltip text="Web components are a set of standardized APIs.">
+        Web Components
+      </katrin-tooltip>
+      are awesome!
+    </p>
+    <katrin-tooltip></katrin-tooltip>
+    <hr />
+    <a is="katrin-confirm-link" href="https://www.google.com">Link to Google</a>
+  </body>
+</html>
